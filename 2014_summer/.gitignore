@@ -1,0 +1,26 @@
+# 一時ファイル
+#---------------------------
+# vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+# バックアップファイル
+#---------------------------
+*~
+*.orig
+*.bak
+# OS依存ファイル
+#---------------------------
+.DS_Store
+Thumbs.db
+# Bundler関係
+#---------------------------
+/vendor/bundle/
+/.bundle/
+# Office系
+~$*
+# Vagrant系
+.vagrant/
+
