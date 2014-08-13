@@ -1,0 +1,45 @@
+# Created by http://www.gitignore.io
+
+### Scala ###
+*.class
+*.log
+
+# sbt specific
+.cache/
+.history/
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+# 一時ファイル
+#---------------------------
+# vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+# バックアップファイル
+#---------------------------
+*~
+*.orig
+*.bak
+# OS依存ファイル
+#---------------------------
+.DS_Store
+Thumbs.db
+# Bundler関係
+#---------------------------
+/vendor/bundle/
+/.bundle/
+# Office系
+~$*
+
